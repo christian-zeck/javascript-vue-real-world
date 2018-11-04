@@ -10,7 +10,7 @@
 
 <script>
 export default {
-  data () {
+  data() {
     return {
       event: {
         id: 1,

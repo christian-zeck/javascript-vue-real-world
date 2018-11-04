@@ -1,4 +1,21 @@
 {
   "git.ignoreLimitWarning": true,
-  "prettier.semi": false
+  "vetur.completion.useScaffoldSnippets": false,
+  "vetur.validation.template": false,
+  "eslint.validate": [
+    {
+      "language": "vue",
+      "autoFix": true
+    },
+    {
+      "language": "html",
+      "autoFix": true
+    },
+    {
+      "language": "javascript",
+      "autoFix": true
+    }
+  ],
+  "eslint.autoFixOnSave": true,
+  "editor.formatOnSave": true
 }
